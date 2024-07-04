@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script src="/assets/script/home.js" defer></script>
+    <title>MOTOPEÇAS</title>
+</head>
+<body>
+    <header>
+        
+        <div class="logo">
+                <a href="./home.html">
+                    <h1>MOTOPEÇAS</h1>
+                </a>
+        </div>
+
+        <div class="tittle-nav-bar">
+                <ul>
+                    <li class="tlnb"><a href="./favorites.html"><i class="fa-solid fa-heart"></i></a></li>
+                </ul>
+        </div>
+
+        <div class="top-nav-bar">
+            <ul class="tnb-ul">
+                <li class="tnb-icon">
+                    <a href="./home.html">INÍCIO</a>
+                </li>
+                <li class="tnb-icon dropdown">
+                    PRODUTOS <i class="fa-solid fa-caret-down"></i>
+                     <ul class="dropdown-ul">
+                        <li><a href="./tires.html" class="dropdown-item">PNEUS</a></li>
+                            
+                        <li><a href="./parts.html" class="dropdown-item">MOTOPEÇAS</a></li>
+                            
+                        <li><a href="./lub.html" class="dropdown-item">LUBRIFICANTES</a></li>
+                            
+                        <li><a href="./cables.html" class="dropdown-item">CABOS</a></li>
+                            
+                        <li><a href="./lights.html" class="dropdown-item">LÂMPADAS</a></li>
+                    </ul>
+                </li>
+                <li class="tnb-icon"><a href="./about.html">SOBRE NÓS</a></li>
+                <li class="tnb-icon"><a href="./contact.html">CONTATO</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <main>
+        <div class="container"> 
+            <div class="tittle" style="margin-bottom: 10px;">
+                <h1>Carrinho de Compras</h1>
+            </div>
+            <div class="group-container">
+                <div class="card">
+                    <img src="https://cdn.awsli.com.br/600x450/437/437289/produto/145017419/d134b9d4f0.jpg" alt="AMORTECEDOR CG TITAN 150 PAR TRASEIRO STARKE">
+                    <div class="text">
+                        <div class="name">
+                            <h2>AMORTECEDOR CG TITAN 150 PAR TRASEIRO STARKE</h2>
+                            <span>R$ 166,07</span>
+                        </div>
+                        <div class="icons">
+                        
+                            <label for="quantity">Quantidade:</label>
+                            <input type="number" id="quantity" name="quantity" min="1" value="1">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="card">
+                    <img src="https://cdn.awsli.com.br/600x450/437/437289/produto/145016763/72dc05e5c6.jpg" alt="PNEU 130/60-13 BELLATRIX TECHNIC TRASEIRO">
+                    <div class="text">
+                        <div class="name">
+                            <h2>PNEU 130/60-13 BELLATRIX TECHNIC TRASEIRO</h2>
+                            <span>R$ 229,00</span>
+                        </div>
+                        <div class="icons">
+                        
+                            <label for="quantity">Quantidade:</label>
+                            <input type="number" id="quantity" name="quantity" min="1" value="1">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="card">
+                    <img src="https://cdn.awsli.com.br/600x450/437/437289/produto/145017123/pi-75hcr-n7ipmea8r4.jpg" alt="SETA PISCA BROS 150 13-14 / BROS 160 15-18 ESQUERDO PROTORK">
+                    <div class="text">
+                        <div class="name">
+                            <h2>SETA PISCA BROS 150 13-14 / BROS 160 15-18 ESQUERDO PROTORK</h2>
+                            <span>R$ 18,30</span>
+                        </div>
+                        <div class="icons">
+                        
+                            <label for="quantity">Quantidade:</label>
+                            <input type="number" id="quantity" name="quantity" min="1" value="1">
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="card">
+                    <img src="https://cdn.awsli.com.br/2500x2500/437/437289/produto/35664714/29b54a4a82.jpg" alt="MANETE DE FREIO CURTO STRADA TWISTER CB 300R CROMADO COMETA">
+                    <div class="text">
+                        <div class="name">
+                            <h2>MANETE DE FREIO CURTO STRADA TWISTER CB 300R CROMADO COMETA</h2>
+                            <span>R$ 12,90</span>
+                        </div>
+                        <div class="icons">
+                        
+                        <label for="quantity">Quantidade:</label>
+                            <input type="number" id="quantity" name="quantity" min="1" value="1">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="cart-side">
+            <div class="cart-summary">
+                <div class="tittle">
+                    <h2>Total</h2>
+                    <div class="total">
+                        <h4>Total:</h4>
+                        <span id="total">R$ 426,27</span>
+                    </div>
+                    <div class="percent" style="font-size: 12px;">
+                        <p>
+                            1x R$ 426,27 <br>
+                            2x R$ 214,00 <br>
+                            3x R$ 143,00 <br>
+                            4x R$ 107,00 <br>
+                            5x R$ 85,00 <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+                <div class="cart-icons">
+                    <div class="tittle">
+                        <h3>Pagar com:</h3>
+                        <div class="total">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-cc-mastercard"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-cc-visa"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-pix"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-barcode"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-paypal"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-google-pay"></i></a></li>
+                            </ul>
+                            <ul style="justify-content: flex-end; margin-top: 10px;">
+                                <button class="pay" onclick="addClassToButton()">PAGAR</button>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </main>
+        <div class="confirm-bar">
+            <div class="confirm notShow">
+                <h2>Compra Aprovada!</h2>
+            </div>
+        </div>
+        <footer>
+            <a target="#"> <i class="fa-brands fa-instagram"></i> Instagram </a>
+            <a target="#"> <i class="fa-brands fa-youtube"></i> Youtube</a>
+            <a target="#"> <i class="fa-brands fa-twitter"></i> Twitter</a>
+            <a target="#"> <i class="fa-brands fa-facebook"></i> Facebook</a>  
+        </footer>
+    
+        <script>
+            function addClassToButton() {
+              var button = document.querySelector('.pay');
+              var confirm = document.querySelector('.confirm');
+              var container = document.querySelector('.group-container');
+              var total = document.querySelector('#total');
+        
+              confirm.classList.remove('notShow');
+              container.classList.add('notShow');
+              total.textContent="R$ 0,00";
+            }
+            </script>
+</body>
+
+
+
+</html>
