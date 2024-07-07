@@ -1,2 +1,9 @@
 # MotoPecas
- Projeto da faculdade de ADS - JS, HTML, CSS
+ MotoPeças - Loja virtual de peças de moto.
+ 
+## Tecnologias utilizadas 
+<ul> 
+    <li>JavaScript</li> 
+    <li>HTML</li> 
+    <li>CSS</li> 
+</ul>
